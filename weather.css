@@ -1,0 +1,95 @@
+body{
+    height: 620px;
+    width: 1005px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: grey;
+    margin: 15px 0px 0px 175px;
+}
+#top{
+    height:100px;
+    width: 700px;
+    background-color:#4472C4;
+    color: white;
+    text-align:center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    border-style:groove;
+    border-color:black;
+}
+#srch{
+    float: right;
+}
+#sbtn{
+    float: right;
+    color: #4472C4;
+    background-color: white;
+    cursor: pointer;
+}
+#bottom{
+    height: 520px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    height: 520px;
+    width:198px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+#slct{
+    height: 30px;
+    width: 150px;
+    background-color:#4472C4;
+    color: white;
+    text-align: center;
+}
+#obtn{
+    height: 30px;
+    width: 150px;
+    background-color:#4472C4;
+    color: white;
+    margin: 25px 0 0 0;
+    cursor: pointer;
+}
+#part{
+    height: 520px;
+    width: 4px;
+    background-color: black;
+}
+#right{
+    height: 495px;
+    width: 748px;
+    margin: 10px 5px 0 10px;
+    border: 2px;
+    border-style: ridge;
+}
+#box{
+    height:120px ;
+    width: 300px ;
+    border : 2px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: #4472C4;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.delbtn{
+    height: 20px;
+    width: 20px;
+    margin : 0 0 0 280px;
+    color: #4472C4;
+    border-style: hidden;
+    font-weight: bolder;
+    background-color: white;
+}
+.city{
+    background: #4472C4;
+    color: white;
+    text-align: center;
+}
